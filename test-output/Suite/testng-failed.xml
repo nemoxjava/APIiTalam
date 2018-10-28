@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Sanity Test Chrome1(failed)" parallel="tests">
+    <classes>
+      <class name="com.crm.tests.SanityHotNet_Negative">
+        <methods>
+          <include name="End_Exectuion"/>
+          <include name="Exit_Clean_After_Test"/>
+          <include name="הוט_נט_הקמת_לקוח_בדיקת_שדות_חובה"/>
+          <include name="Test_prepration"/>
+        </methods>
+      </class> <!-- com.crm.tests.SanityHotNet_Negative -->
+    </classes>
+  </test> <!-- Sanity Test Chrome1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

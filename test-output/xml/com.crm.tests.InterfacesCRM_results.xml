@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InterfacesCRM"
+           tests="3"
+           failures="3"
+           errors="0"
+           skipped="0"
+           time="90.885">
+  <properties />
+            <testcase name="Product360" time="25.001" classname="com.crm.tests.InterfacesCRM">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+            <testcase name="Product360" time="25.207" classname="com.crm.tests.InterfacesCRM">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+            <testcase name="Product360" time="40.677" classname="com.crm.tests.InterfacesCRM">
+                <failure type="org.openqa.selenium.NoSuchFrameException"
+                  message="No frame element found by name or id ptifrmtgtframe
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;HOT-AUTOSRV-01&apos;, ip: &apos;8.200.4.15&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown"
+              >
+<![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id ptifrmtgtframe
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'HOT-AUTOSRV-01', ip: '8.200.4.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+  org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:973)
+  com.crm.pages.CRMCustomerPage.goToSite(CRMCustomerPage.java:55)
+  com.crm.tests.InterfacesCRM.Product360(InterfacesCRM.java:67)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.TestNG.privateMain(TestNG.java:1442)
+  org.testng.TestNG.main(TestNG.java:1411)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

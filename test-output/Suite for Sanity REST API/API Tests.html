@@ -1,0 +1,183 @@
+<html>
+<head>
+<title>TestNG:  API Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 24 22:18:54 IDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29040 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.italam.tests.Tests_API_REST.apiTestUpdateorganizationLicensing()'><b>apiTestUpdateorganizationLicensing</b><br>Test class: com.italam.tests.Tests_API_REST<br>Parameters: 1<br/>
+<a href="#Output-132920591" onClick='toggleBox("Output-132920591", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-132920591" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-132920591">
+2018-10-24 22:18:54.581 : START apiTestUpdateorganizationLicensing,  iteration: 1, Environment: test<br><br/>
+2018-10-24 22:18:58.824 : FINISH apiTestUpdateorganizationLicensing,  iteration: 1  on Environment:test<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.italam.tests.Tests_API_REST@a67c67e</td></tr>
+<tr>
+<td title='com.italam.tests.Tests_API_REST.apiTest_AllCases()'><b>apiTest_AllCases</b><br>Test class: com.italam.tests.Tests_API_REST<br>Parameters: 1<br/>
+<a href="#Output-1023779955" onClick='toggleBox("Output-1023779955", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1023779955" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1023779955">
+2018-10-24 22:18:59.83 : START apiTest_AllCases,  iteration: 1, Environment: test<br><br/>
+2018-10-24 22:19:03.667 : FINISH apiTest_AllCases,  iteration: 1  on Environment:test<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.italam.tests.Tests_API_REST@a67c67e</td></tr>
+<tr>
+<td title='com.italam.tests.Tests_API_REST.apiTest_CreateOrganizationGetPassword()'><b>apiTest_CreateOrganizationGetPassword</b><br>Test class: com.italam.tests.Tests_API_REST<br>Parameters: 1<br/>
+<a href="#Output-556455352" onClick='toggleBox("Output-556455352", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-556455352" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-556455352">
+2018-10-24 22:19:04.673 : START aapiTest_CreateOrganizationGetPassword,  iteration: 1, Environment: test<br><br/>
+2018-10-24 22:19:06.301 : FINISH aapiTest_CreateOrganizationGetPassword,  iteration: 1  on Environment:test<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.italam.tests.Tests_API_REST@a67c67e</td></tr>
+<tr>
+<td title='com.italam.tests.Tests_API_REST.apiTest_UpdateEmail()'><b>apiTest_UpdateEmail</b><br>Test class: com.italam.tests.Tests_API_REST<br>Parameters: 1<br/>
+<a href="#Output-1022454577" onClick='toggleBox("Output-1022454577", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1022454577" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1022454577">
+2018-10-24 22:19:07.308 : START apiTest_UpdateEmail,  iteration: 1, Environment: test<br><br/>
+2018-10-24 22:19:08.963 : FINISH apiTest_UpdateEmail,  iteration: 1  on Environment:test<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.italam.tests.Tests_API_REST@a67c67e</td></tr>
+<tr>
+<td title='com.italam.tests.Tests_API_REST.apiTest_UpdateOrgAdmin()'><b>apiTest_UpdateOrgAdmin</b><br>Test class: com.italam.tests.Tests_API_REST<br>Parameters: 1<br/>
+<a href="#Output-245578162" onClick='toggleBox("Output-245578162", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-245578162" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-245578162">
+2018-10-24 22:19:09.97 : START apiTest_UpdateOrgAdmin,  iteration: 1, Environment: test<br><br/>
+2018-10-24 22:19:12.649 : FINISH apiTest_UpdateOrgAdmin,  iteration: 1  on Environment:test<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.italam.tests.Tests_API_REST@a67c67e</td></tr>
+<tr>
+<td title='com.italam.tests.Tests_API_REST.apiTest_getInitialDatan()'><b>apiTest_getInitialDatan</b><br>Test class: com.italam.tests.Tests_API_REST<br>Parameters: 1<br/>
+<a href="#Output-776721468" onClick='toggleBox("Output-776721468", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-776721468" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-776721468">
+2018-10-24 22:19:13.655 : START apiTest_getInitialDatan,  iteration: 1, Environment: test<br><br/>
+2018-10-24 22:19:15.936 : FINISH apiTest_getInitialDatan,  iteration: 1  on Environment:test<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.italam.tests.Tests_API_REST@a67c67e</td></tr>
+<tr>
+<td title='com.italam.tests.Tests_API_REST.apiTest_getOrgAdmin()'><b>apiTest_getOrgAdmin</b><br>Test class: com.italam.tests.Tests_API_REST<br>Parameters: 1<br/>
+<a href="#Output-1562702108" onClick='toggleBox("Output-1562702108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1562702108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1562702108">
+2018-10-24 22:19:16.941 : START apiTest_getOrgAdmin,  iteration: 1, Environment: test<br><br/>
+2018-10-24 22:19:18.897 : FINISH apiTest_getOrgAdmin,  iteration: 1  on Environment:test<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.italam.tests.Tests_API_REST@a67c67e</td></tr>
+<tr>
+<td title='com.italam.tests.Tests_API_REST.apiTest_getOrganizationProfile()'><b>apiTest_getOrganizationProfile</b><br>Test class: com.italam.tests.Tests_API_REST<br>Parameters: 1<br/>
+<a href="#Output-280082013" onClick='toggleBox("Output-280082013", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-280082013" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-280082013">
+2018-10-24 22:19:19.903 : START apiTest_getOrganizationProfile,  iteration: 1, Environment: test<br><br/>
+2018-10-24 22:19:22.275 : FINISH apiTest_getOrganizationProfile,  iteration: 1  on Environment:test<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.italam.tests.Tests_API_REST@a67c67e</td></tr>
+</table><p>
+</body>
+</html>

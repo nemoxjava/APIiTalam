@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sanity Test CRM"
+           tests="115"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2631.891">
+  <properties />
+  
+  
+            <testcase name="addPermissions" time="22.780" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.922" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.783" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.752" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.017" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.814" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.083" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.918" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.818" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.919" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.869" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.785" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.620" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.158" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.819" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.869" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.727" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.883" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.833" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.524" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.106" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.810" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.759" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.904" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.768" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.786" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.897" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.776" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.772" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.919" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.838" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.935" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.905" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.549" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.585" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.313" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.722" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.953" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.880" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.903" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.801" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.167" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.045" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.587" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.784" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.611" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.759" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.888" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.888" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.859" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.007" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.794" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.750" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.857" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.746" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.714" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.024" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.762" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.946" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.055" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.818" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.904" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.854" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.339" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.852" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.064" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.661" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.870" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.063" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.015" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.522" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.401" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.725" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.520" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.234" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.137" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.892" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.066" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.343" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.820" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.902" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.931" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.903" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.938" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.905" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.925" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.230" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.025" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.814" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.738" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.068" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.299" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.749" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.721" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.760" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.804" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.878" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.253" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.897" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.133" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.959" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.850" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.584" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.726" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.911" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.867" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.724" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.742" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.908" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.857" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.775" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.924" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.083" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="23.236" classname="com.crm.tests.SanityCrmTrain" />
+                <testcase name="addPermissions" time="22.755" classname="com.crm.tests.SanityCrmTrain" />
+      
+</testsuite>

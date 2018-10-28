@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sanity Test Chrome"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="113.127">
+  <properties />
+  
+  
+            <testcase name="צד_שמאל_מכירה_באתר_150280" time="73.313" classname="com.nextPortal.tests.SanityNextPortalChrome" />
+                <testcase name="צד_שמאל_מכירה_באתר_הודעות_שגיאה_150279" time="14.507" classname="com.nextPortal.tests.SanityNextPortalChrome" />
+                <testcase name="צד_שמאל_מכירה_באתר_ערכים_שגויים_150261" time="25.307" classname="com.nextPortal.tests.SanityNextPortalChrome" />
+      
+</testsuite>

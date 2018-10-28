@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sanity Next"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="10.005">
+  <properties />
+            <testcase name="מכר_באתר_נקסט" time="10.005" classname="com.next.tests.TestSaleNext">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+  
+  
+  
+</testsuite>

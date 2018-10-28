@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  Sanity Test Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Sanity Test Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Nov 26 06:30:09 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1082 seconds (1082829 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hotportal.tests.SanityHotPortalChrome.מכר_אתר_הוט()'><b>מכר_אתר_הוט</b><br>Test class: com.hotportal.tests.SanityHotPortalChrome<br>Parameters: 1<br/>
+<a href="#Output-529570621" onClick='toggleBox("Output-529570621", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-529570621" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-529570621">
+Test started: 2017-11-26 06:31:20.042Iteration: 1<br/>
+Test result failed: For DB verifications<br/>
+<a href=".png"><p align="left">Error screenshot at Sun Nov 26 06:34:18 IST 2017</p><br/>
+<p><img width="1024" src="C:\Workspace\CRM\src\images\Failed_assert_DB_verification_11262017_063418_AM.png" alt="screenshot at Sun Nov 26 06:34:18 IST 2017"/></p></a><br /><br/>
+Test Finished: 2017-11-26 06:34:18.211<br/>
+</div>
+</td>
+<td></td>
+<td>178</td>
+<td>com.hotportal.tests.SanityHotPortalChrome@37ceb1df</td></tr>
+<tr>
+<td title='com.hotportal.tests.SanityHotPortalChrome.מכר_ממירים_CR2371()'><b>מכר_ממירים_CR2371</b><br>Test class: com.hotportal.tests.SanityHotPortalChrome<br>Parameters: 022475107, 052, 4565076, עגיב, 7122183<br/>
+<a href="#Output-80887257" onClick='toggleBox("Output-80887257", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-80887257" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-80887257">
+Test started: 2017-11-26 06:40:00.406<br/>
+Test result failed: For DB verifications<br/>
+<a href=".png"><p align="left">Error screenshot at Sun Nov 26 06:40:51 IST 2017</p><br/>
+<p><img width="1024" src="C:\Workspace\CRM\src\images\Failed_assert_DB_verification_11262017_064051_AM.png" alt="screenshot at Sun Nov 26 06:40:51 IST 2017"/></p></a><br /><br/>
+ קבלת טרנזקציה אחרונה ללקוח עלפי מספר <br/>
+Test Finished: 2017-11-26 06:41:14.964<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>com.hotportal.tests.SanityHotPortalChrome@37ceb1df</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hotportal.tests.SanityHotPortalChrome.מכר_אתר_הוט()'><b>מכר_אתר_הוט</b><br>Test class: com.hotportal.tests.SanityHotPortalChrome<br>Parameters: 2<br/>
+<a href="#Output-1582096736" onClick='toggleBox("Output-1582096736", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1582096736" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1582096736">
+Test started: 2017-11-26 06:34:27.941Iteration: 2<br/>
+Test Finished: 2017-11-26 06:36:59.485<br/>
+</div>
+</td>
+<td></td>
+<td>151</td>
+<td>com.hotportal.tests.SanityHotPortalChrome@37ceb1df</td></tr>
+<tr>
+<td title='com.hotportal.tests.SanityHotPortalChrome.מכר_אתר_הוט()'><b>מכר_אתר_הוט</b><br>Test class: com.hotportal.tests.SanityHotPortalChrome<br>Parameters: 3<br/>
+<a href="#Output-847457330" onClick='toggleBox("Output-847457330", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-847457330" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-847457330">
+Test started: 2017-11-26 06:37:06.978Iteration: 3<br/>
+Test Finished: 2017-11-26 06:39:06.922<br/>
+</div>
+</td>
+<td></td>
+<td>119</td>
+<td>com.hotportal.tests.SanityHotPortalChrome@37ceb1df</td></tr>
+<tr>
+<td title='com.hotportal.tests.SanityHotPortalChrome.מכר_ממירים_CR2371()'><b>מכר_ממירים_CR2371</b><br>Test class: com.hotportal.tests.SanityHotPortalChrome<br>Parameters: 065116337, 054, 7364629, סלע, 7558066<br/>
+<a href="#Output-801057066" onClick='toggleBox("Output-801057066", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-801057066" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-801057066">
+Test started: 2017-11-26 06:41:22.073<br/>
+<a href=".png"><p align="left">Error screenshot at Sun Nov 26 06:44:11 IST 2017</p><br/>
+<p><img width="1024" src="C:\Workspace\CRM\src\images\Succeed with Adding Memir_11262017_064411_AM.png" alt="screenshot at Sun Nov 26 06:44:11 IST 2017"/></p></a><br /><br/>
+ קבלת טרנזקציה אחרונה ללקוח עלפי מספר 66a04479-e366-4041-983f-93bd5c773249<br/>
+Test result passed: For DB verifications<br/>
+Test Finished: 2017-11-26 06:44:29.181<br/>
+</div>
+</td>
+<td></td>
+<td>187</td>
+<td>com.hotportal.tests.SanityHotPortalChrome@37ceb1df</td></tr>
+<tr>
+<td title='com.hotportal.tests.SanityHotPortalChrome.מכר_ממירים_CR2371()'><b>מכר_ממירים_CR2371</b><br>Test class: com.hotportal.tests.SanityHotPortalChrome<br>Parameters: 029075645, 052, 8222132, סלנט, 109813<br/>
+<a href="#Output-907158160" onClick='toggleBox("Output-907158160", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-907158160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-907158160">
+Test started: 2017-11-26 06:44:35.601<br/>
+<a href=".png"><p align="left">Error screenshot at Sun Nov 26 06:46:31 IST 2017</p><br/>
+<p><img width="1024" src="C:\Workspace\CRM\src\images\Succeed with Adding Memir_11262017_064631_AM.png" alt="screenshot at Sun Nov 26 06:46:31 IST 2017"/></p></a><br /><br/>
+ קבלת טרנזקציה אחרונה ללקוח עלפי מספר ce683123-ae04-4bb8-a75d-3911ac4346e6<br/>
+Test result passed: For DB verifications<br/>
+Test Finished: 2017-11-26 06:48:03.967<br/>
+</div>
+</td>
+<td></td>
+<td>208</td>
+<td>com.hotportal.tests.SanityHotPortalChrome@37ceb1df</td></tr>
+</table><p>
+</body>
+</html>

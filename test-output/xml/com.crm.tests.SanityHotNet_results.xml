@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SanityHotNet"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="458.365">
+  <properties />
+  
+  
+            <testcase name="הוט_נט_הקמת_לקוח_פרטי" time="16.446" classname="com.crm.tests.SanityHotNet" />
+                <testcase name="הוט_נט_הקמת_לקוח_הוראת_קבע" time="127.531" classname="com.crm.tests.SanityHotNet" />
+                <testcase name="הוט_נט_הקמת_לקוח_פרטי_4803" time="140.556" classname="com.crm.tests.SanityHotNet" />
+                <testcase name="הוט_נט_הקמת_לקוח_עסקי_4803" time="149.077" classname="com.crm.tests.SanityHotNet" />
+                <testcase name="הוט_נט_הקמת_לקוח_שובר" time="0.000" classname="com.crm.tests.SanityHotNet" />
+                <testcase name="הוט_נט_הקמת_לקוח_בעזרת_דרכון_עם_הרשאה" time="8.282" classname="com.crm.tests.SanityHotNet" />
+                <testcase name="הוט_נט_חיפוש_מתקדם_והקמת_לקוח" time="16.473" classname="com.crm.tests.SanityHotNet" />
+      
+</testsuite>

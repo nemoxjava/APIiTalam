@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite for Sanity REST API" parallel="tests">
+	<parameter name="environment" value="test" />
+
+	<!-- <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners> -->
+
+	<!-- Test Hot Net Negative -->
+
+	<test name="API Tests">
+		<classes>
+			<class name="com.italam.tests.Tests_API_REST" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

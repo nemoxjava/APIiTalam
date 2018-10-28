@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_for_Sanity_REST_API">
+              <span class="suite-name border-passed">Suite for Sanity REST API</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_for_Sanity_REST_API">
+                    <span>C:\APItalm\StarterProject\TestNG_API_Sanity2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_for_Sanity_REST_API">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_for_Sanity_REST_API">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_for_Sanity_REST_API">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_for_Sanity_REST_API">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_for_Sanity_REST_API">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_for_Sanity_REST_API">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_for_Sanity_REST_API" class="hide-methods passed suite-Suite_for_Sanity_REST_API"> (hide)</a> <!-- hide-methods passed suite-Suite_for_Sanity_REST_API -->
+                      <a href="#" panel-name="suite-Suite_for_Sanity_REST_API" class="show-methods passed suite-Suite_for_Sanity_REST_API"> (show)</a> <!-- show-methods passed suite-Suite_for_Sanity_REST_API -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_for_Sanity_REST_API">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_for_Sanity_REST_API" title="com.italam.tests.Tests_API_REST" hash-for-method="apiTestUpdateorganizationLicensing(1)">apiTestUpdateorganizationLicensing(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_for_Sanity_REST_API" title="com.italam.tests.Tests_API_REST" hash-for-method="apiTest_AllCases(1)">apiTest_AllCases(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_for_Sanity_REST_API" title="com.italam.tests.Tests_API_REST" hash-for-method="apiTest_CreateOrganizationGetPassword(1)">apiTest_CreateOrganizationGetPassword(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_for_Sanity_REST_API" title="com.italam.tests.Tests_API_REST" hash-for-method="apiTest_UpdateEmail(1)">apiTest_UpdateEmail(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_for_Sanity_REST_API" title="com.italam.tests.Tests_API_REST" hash-for-method="apiTest_UpdateOrgAdmin(1)">apiTest_UpdateOrgAdmin(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_for_Sanity_REST_API" title="com.italam.tests.Tests_API_REST" hash-for-method="apiTest_getInitialDatan(1)">apiTest_getInitialDatan(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_for_Sanity_REST_API" title="com.italam.tests.Tests_API_REST" hash-for-method="apiTest_getOrgAdmin(1)">apiTest_getOrgAdmin(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_for_Sanity_REST_API" title="com.italam.tests.Tests_API_REST" hash-for-method="apiTest_getOrganizationProfile(1)">apiTest_getOrganizationProfile(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_for_Sanity_REST_API -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite_for_Sanity_REST_API" class="panel Suite_for_Sanity_REST_API">
+          <div class="suite-Suite_for_Sanity_REST_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.italam.tests.Tests_API_REST</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiTestUpdateorganizationLicensing(1)">
+                  </a> <!-- apiTestUpdateorganizationLicensing(1) -->
+                  <span class="method-name">apiTestUpdateorganizationLicensing</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiTest_AllCases(1)">
+                  </a> <!-- apiTest_AllCases(1) -->
+                  <span class="method-name">apiTest_AllCases</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiTest_CreateOrganizationGetPassword(1)">
+                  </a> <!-- apiTest_CreateOrganizationGetPassword(1) -->
+                  <span class="method-name">apiTest_CreateOrganizationGetPassword</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiTest_UpdateEmail(1)">
+                  </a> <!-- apiTest_UpdateEmail(1) -->
+                  <span class="method-name">apiTest_UpdateEmail</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiTest_UpdateOrgAdmin(1)">
+                  </a> <!-- apiTest_UpdateOrgAdmin(1) -->
+                  <span class="method-name">apiTest_UpdateOrgAdmin</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiTest_getInitialDatan(1)">
+                  </a> <!-- apiTest_getInitialDatan(1) -->
+                  <span class="method-name">apiTest_getInitialDatan</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiTest_getOrgAdmin(1)">
+                  </a> <!-- apiTest_getOrgAdmin(1) -->
+                  <span class="method-name">apiTest_getOrgAdmin</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiTest_getOrganizationProfile(1)">
+                  </a> <!-- apiTest_getOrganizationProfile(1) -->
+                  <span class="method-name">apiTest_getOrganizationProfile</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_for_Sanity_REST_API-class-passed -->
+        </div> <!-- panel Suite_for_Sanity_REST_API -->
+        <div panel-name="test-xml-Suite_for_Sanity_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\APItalm\StarterProject\TestNG_API_Sanity2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite for Sanity REST API&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;environment&quot; value=&quot;test&quot;/&gt;
+  &lt;test name=&quot;API Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.italam.tests.Tests_API_REST&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Tests --&gt;
+&lt;/suite&gt; &lt;!-- Suite for Sanity REST API --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_for_Sanity_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite for Sanity REST API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_for_Sanity_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite for Sanity REST API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">apiTestUpdateorganizationLicensing</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">apiTest_AllCases</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">apiTest_CreateOrganizationGetPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">apiTest_UpdateEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">apiTest_UpdateOrgAdmin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">apiTest_getInitialDatan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">apiTest_getOrgAdmin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">apiTest_getOrganizationProfile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_for_Sanity_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite for Sanity REST API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_for_Sanity_REST_API');
+function tableData_Suite_for_Sanity_REST_API() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'apiTestUpdateorganizationLicensing')
+data.setCell(0, 2, 'com.italam.tests.Tests_API_REST')
+data.setCell(0, 3, 6976);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'apiTest_AllCases')
+data.setCell(1, 2, 'com.italam.tests.Tests_API_REST')
+data.setCell(1, 3, 3631);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'apiTest_getInitialDatan')
+data.setCell(2, 2, 'com.italam.tests.Tests_API_REST')
+data.setCell(2, 3, 2223);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'apiTest_UpdateOrgAdmin')
+data.setCell(3, 2, 'com.italam.tests.Tests_API_REST')
+data.setCell(3, 3, 2068);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'apiTest_UpdateEmail')
+data.setCell(4, 2, 'com.italam.tests.Tests_API_REST')
+data.setCell(4, 3, 1973);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'apiTest_getOrgAdmin')
+data.setCell(5, 2, 'com.italam.tests.Tests_API_REST')
+data.setCell(5, 3, 1817);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'apiTest_getOrganizationProfile')
+data.setCell(6, 2, 'com.italam.tests.Tests_API_REST')
+data.setCell(6, 3, 1647);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'apiTest_CreateOrganizationGetPassword')
+data.setCell(7, 2, 'com.italam.tests.Tests_API_REST')
+data.setCell(7, 3, 1430);
+window.suiteTableData['Suite_for_Sanity_REST_API']= { tableData: data, tableDiv: 'times-div-Suite_for_Sanity_REST_API'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Suite_for_Sanity_REST_API">
+              </div> <!-- times-div-Suite_for_Sanity_REST_API -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_for_Sanity_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite for Sanity REST API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">apiTest_getOrganizationProfile(1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2018-10-24 22:31:14.041 : START apiTest_getOrganizationProfile,  iteration: 1, Environment: test<br></span>
+                <span class="reporter-method-output">2018-10-24 22:31:15.687 : FINISH apiTest_getOrganizationProfile,  iteration: 1  on Environment:test<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">apiTest_AllCases(1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2018-10-24 22:30:54.893 : START apiTest_AllCases,  iteration: 1, Environment: test<br></span>
+                <span class="reporter-method-output">2018-10-24 22:30:58.524 : FINISH apiTest_AllCases,  iteration: 1  on Environment:test<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">apiTestUpdateorganizationLicensing(1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2018-10-24 22:30:46.914 : START apiTestUpdateorganizationLicensing,  iteration: 1, Environment: test<br></span>
+                <span class="reporter-method-output">2018-10-24 22:30:53.889 : FINISH apiTestUpdateorganizationLicensing,  iteration: 1  on Environment:test<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">apiTest_UpdateOrgAdmin(1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2018-10-24 22:31:04.93 : START apiTest_UpdateOrgAdmin,  iteration: 1, Environment: test<br></span>
+                <span class="reporter-method-output">2018-10-24 22:31:06.996 : FINISH apiTest_UpdateOrgAdmin,  iteration: 1  on Environment:test<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">apiTest_UpdateEmail(1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2018-10-24 22:31:01.955 : START apiTest_UpdateEmail,  iteration: 1, Environment: test<br></span>
+                <span class="reporter-method-output">2018-10-24 22:31:03.927 : FINISH apiTest_UpdateEmail,  iteration: 1  on Environment:test<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">apiTest_getInitialDatan(1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2018-10-24 22:31:07.998 : START apiTest_getInitialDatan,  iteration: 1, Environment: test<br></span>
+                <span class="reporter-method-output">2018-10-24 22:31:10.22 : FINISH apiTest_getInitialDatan,  iteration: 1  on Environment:test<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">apiTest_CreateOrganizationGetPassword(1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2018-10-24 22:30:59.524 : START aapiTest_CreateOrganizationGetPassword,  iteration: 1, Environment: test<br></span>
+                <span class="reporter-method-output">2018-10-24 22:31:00.954 : FINISH aapiTest_CreateOrganizationGetPassword,  iteration: 1  on Environment:test<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">apiTest_getOrgAdmin(1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2018-10-24 22:31:11.222 : START apiTest_getOrgAdmin,  iteration: 1, Environment: test<br></span>
+                <span class="reporter-method-output">2018-10-24 22:31:13.038 : FINISH apiTest_getOrgAdmin,  iteration: 1  on Environment:test<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_for_Sanity_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_for_Sanity_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.italam.tests.Tests_API_REST</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Test_prepration</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">apiTestUpdateorganizationLicensing(1)</span>
+                <span class="method-start">467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit_Clean_After_Test</span>
+                <span class="method-start">7444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">apiTest_AllCases(1)</span>
+                <span class="method-start">8447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit_Clean_After_Test</span>
+                <span class="method-start">12078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">apiTest_CreateOrganizationGetPassword(1)</span>
+                <span class="method-start">13078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit_Clean_After_Test</span>
+                <span class="method-start">14508 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">apiTest_UpdateEmail(1)</span>
+                <span class="method-start">15508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit_Clean_After_Test</span>
+                <span class="method-start">17481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">apiTest_UpdateOrgAdmin(1)</span>
+                <span class="method-start">18483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit_Clean_After_Test</span>
+                <span class="method-start">20551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">apiTest_getInitialDatan(1)</span>
+                <span class="method-start">21552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit_Clean_After_Test</span>
+                <span class="method-start">23775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">apiTest_getOrgAdmin(1)</span>
+                <span class="method-start">24775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit_Clean_After_Test</span>
+                <span class="method-start">26592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">apiTest_getOrganizationProfile(1)</span>
+                <span class="method-start">27594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit_Clean_After_Test</span>
+                <span class="method-start">29242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">End_Exectuion</span>
+                <span class="method-start">30243 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

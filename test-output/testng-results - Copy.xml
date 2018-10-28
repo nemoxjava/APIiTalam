@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69243" started-at="2017-08-09T08:36:14Z" finished-at="2017-08-09T08:37:24Z">
+    <groups>
+    </groups>
+    <test name="Sanity Next Purches Test Chrome 1" duration-ms="69243" started-at="2017-08-09T08:36:14Z" finished-at="2017-08-09T08:37:24Z">
+      <class name="com.nextPortal.tests.SanityNextPortalChrome">
+        <test-method status="PASS" signature="Test_prepration()[pri:0, instance:com.nextPortal.tests.SanityNextPortalChrome@62230c58]" name="Test_prepration" is-config="true" duration-ms="20481" started-at="2017-08-09T11:36:14Z" finished-at="2017-08-09T11:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_prepration -->
+        <test-method status="PASS" signature="BUY_PACKAGE_NEXT_150280(java.lang.reflect.Method)[pri:1, instance:com.nextPortal.tests.SanityNextPortalChrome@62230c58]" name="BUY_PACKAGE_NEXT_150280" duration-ms="41936" started-at="2017-08-09T11:36:35Z" finished-at="2017-08-09T11:37:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nextPortal.tests.SanityNextPortalChrome.BUY_PACKAGE_NEXT_150280(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BUY_PACKAGE_NEXT_150280 -->
+        <test-method status="PASS" signature="End_Exectuion_103663()[pri:0, instance:com.nextPortal.tests.SanityNextPortalChrome@62230c58]" name="End_Exectuion_103663" is-config="true" duration-ms="6325" started-at="2017-08-09T11:37:17Z" finished-at="2017-08-09T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End_Exectuion_103663 -->
+      </class> <!-- com.nextPortal.tests.SanityNextPortalChrome -->
+    </test> <!-- Sanity Next Purches Test Chrome 1 -->
+  </suite> <!-- Suite -->
+</testng-results>

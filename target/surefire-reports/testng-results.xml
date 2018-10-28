@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[2018-10-24 22:30:46.897 : Start tests on: https://dev.italam.org/lms/local/compedia_services/mainservice.php?action=<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:30:46.914 : START apiTestUpdateorganizationLicensing,  iteration: 1, Environment: test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:30:53.889 : FINISH apiTestUpdateorganizationLicensing,  iteration: 1  on Environment:test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:30:54.893 : START apiTest_AllCases,  iteration: 1, Environment: test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:30:58.524 : FINISH apiTest_AllCases,  iteration: 1  on Environment:test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:30:59.524 : START aapiTest_CreateOrganizationGetPassword,  iteration: 1, Environment: test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:00.954 : FINISH aapiTest_CreateOrganizationGetPassword,  iteration: 1  on Environment:test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:01.955 : START apiTest_UpdateEmail,  iteration: 1, Environment: test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:03.927 : FINISH apiTest_UpdateEmail,  iteration: 1  on Environment:test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:04.93 : START apiTest_UpdateOrgAdmin,  iteration: 1, Environment: test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:06.996 : FINISH apiTest_UpdateOrgAdmin,  iteration: 1  on Environment:test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:07.998 : START apiTest_getInitialDatan,  iteration: 1, Environment: test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:10.22 : FINISH apiTest_getInitialDatan,  iteration: 1  on Environment:test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:11.222 : START apiTest_getOrgAdmin,  iteration: 1, Environment: test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:13.038 : FINISH apiTest_getOrgAdmin,  iteration: 1  on Environment:test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:14.041 : START apiTest_getOrganizationProfile,  iteration: 1, Environment: test<br>]]>
+    </line>
+    <line>
+      <![CDATA[2018-10-24 22:31:15.687 : FINISH apiTest_getOrganizationProfile,  iteration: 1  on Environment:test<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite for Sanity REST API" duration-ms="30252" started-at="2018-10-24T19:30:46Z" finished-at="2018-10-24T19:31:16Z">
+    <groups>
+      <group name="sanity">
+        <method signature="Tests_API_REST.apiTestUpdateorganizationLicensing(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTestUpdateorganizationLicensing" class="com.italam.tests.Tests_API_REST"/>
+        <method signature="Tests_API_REST.apiTest_AllCases(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_AllCases" class="com.italam.tests.Tests_API_REST"/>
+        <method signature="Tests_API_REST.apiTest_CreateOrganizationGetPassword(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_CreateOrganizationGetPassword" class="com.italam.tests.Tests_API_REST"/>
+        <method signature="Tests_API_REST.apiTest_UpdateEmail(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_UpdateEmail" class="com.italam.tests.Tests_API_REST"/>
+        <method signature="Tests_API_REST.apiTest_UpdateOrgAdmin(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_UpdateOrgAdmin" class="com.italam.tests.Tests_API_REST"/>
+        <method signature="Tests_API_REST.apiTest_getInitialDatan(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_getInitialDatan" class="com.italam.tests.Tests_API_REST"/>
+        <method signature="Tests_API_REST.apiTest_getOrgAdmin(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_getOrgAdmin" class="com.italam.tests.Tests_API_REST"/>
+        <method signature="Tests_API_REST.apiTest_getOrganizationProfile(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_getOrganizationProfile" class="com.italam.tests.Tests_API_REST"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="API Tests" duration-ms="30252" started-at="2018-10-24T19:30:46Z" finished-at="2018-10-24T19:31:16Z">
+      <class name="com.italam.tests.Tests_API_REST">
+        <test-method status="PASS" signature="Test_prepration()[pri:0, instance:com.italam.tests.Tests_API_REST@1324409e]" name="Test_prepration" is-config="true" duration-ms="452" started-at="2018-10-24T22:30:46Z" finished-at="2018-10-24T22:30:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2018-10-24 22:30:46.897 : Start tests on: https://dev.italam.org/lms/local/compedia_services/mainservice.php?action=<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_prepration -->
+        <test-method status="PASS" signature="apiTestUpdateorganizationLicensing(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTestUpdateorganizationLicensing" duration-ms="6976" started-at="2018-10-24T22:30:46Z" data-provider="iteration" finished-at="2018-10-24T22:30:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2018-10-24 22:30:46.914 : START apiTestUpdateorganizationLicensing,  iteration: 1, Environment: test<br>]]>
+            </line>
+            <line>
+              <![CDATA[2018-10-24 22:30:53.889 : FINISH apiTestUpdateorganizationLicensing,  iteration: 1  on Environment:test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apiTestUpdateorganizationLicensing -->
+        <test-method status="PASS" signature="Exit_Clean_After_Test()[pri:0, instance:com.italam.tests.Tests_API_REST@1324409e]" name="Exit_Clean_After_Test" is-config="true" duration-ms="1001" started-at="2018-10-24T22:30:53Z" finished-at="2018-10-24T22:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit_Clean_After_Test -->
+        <test-method status="PASS" signature="apiTest_AllCases(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_AllCases" duration-ms="3631" started-at="2018-10-24T22:30:54Z" data-provider="iteration" finished-at="2018-10-24T22:30:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2018-10-24 22:30:54.893 : START apiTest_AllCases,  iteration: 1, Environment: test<br>]]>
+            </line>
+            <line>
+              <![CDATA[2018-10-24 22:30:58.524 : FINISH apiTest_AllCases,  iteration: 1  on Environment:test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apiTest_AllCases -->
+        <test-method status="PASS" signature="Exit_Clean_After_Test()[pri:0, instance:com.italam.tests.Tests_API_REST@1324409e]" name="Exit_Clean_After_Test" is-config="true" duration-ms="1000" started-at="2018-10-24T22:30:58Z" finished-at="2018-10-24T22:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit_Clean_After_Test -->
+        <test-method status="PASS" signature="apiTest_CreateOrganizationGetPassword(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_CreateOrganizationGetPassword" duration-ms="1430" started-at="2018-10-24T22:30:59Z" data-provider="iteration" finished-at="2018-10-24T22:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2018-10-24 22:30:59.524 : START aapiTest_CreateOrganizationGetPassword,  iteration: 1, Environment: test<br>]]>
+            </line>
+            <line>
+              <![CDATA[2018-10-24 22:31:00.954 : FINISH aapiTest_CreateOrganizationGetPassword,  iteration: 1  on Environment:test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apiTest_CreateOrganizationGetPassword -->
+        <test-method status="PASS" signature="Exit_Clean_After_Test()[pri:0, instance:com.italam.tests.Tests_API_REST@1324409e]" name="Exit_Clean_After_Test" is-config="true" duration-ms="1000" started-at="2018-10-24T22:31:00Z" finished-at="2018-10-24T22:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit_Clean_After_Test -->
+        <test-method status="PASS" signature="apiTest_UpdateEmail(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_UpdateEmail" duration-ms="1973" started-at="2018-10-24T22:31:01Z" data-provider="iteration" finished-at="2018-10-24T22:31:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2018-10-24 22:31:01.955 : START apiTest_UpdateEmail,  iteration: 1, Environment: test<br>]]>
+            </line>
+            <line>
+              <![CDATA[2018-10-24 22:31:03.927 : FINISH apiTest_UpdateEmail,  iteration: 1  on Environment:test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apiTest_UpdateEmail -->
+        <test-method status="PASS" signature="Exit_Clean_After_Test()[pri:0, instance:com.italam.tests.Tests_API_REST@1324409e]" name="Exit_Clean_After_Test" is-config="true" duration-ms="1001" started-at="2018-10-24T22:31:03Z" finished-at="2018-10-24T22:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit_Clean_After_Test -->
+        <test-method status="PASS" signature="apiTest_UpdateOrgAdmin(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_UpdateOrgAdmin" duration-ms="2068" started-at="2018-10-24T22:31:04Z" data-provider="iteration" finished-at="2018-10-24T22:31:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2018-10-24 22:31:04.93 : START apiTest_UpdateOrgAdmin,  iteration: 1, Environment: test<br>]]>
+            </line>
+            <line>
+              <![CDATA[2018-10-24 22:31:06.996 : FINISH apiTest_UpdateOrgAdmin,  iteration: 1  on Environment:test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apiTest_UpdateOrgAdmin -->
+        <test-method status="PASS" signature="Exit_Clean_After_Test()[pri:0, instance:com.italam.tests.Tests_API_REST@1324409e]" name="Exit_Clean_After_Test" is-config="true" duration-ms="1000" started-at="2018-10-24T22:31:06Z" finished-at="2018-10-24T22:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit_Clean_After_Test -->
+        <test-method status="PASS" signature="apiTest_getInitialDatan(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_getInitialDatan" duration-ms="2223" started-at="2018-10-24T22:31:07Z" data-provider="iteration" finished-at="2018-10-24T22:31:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2018-10-24 22:31:07.998 : START apiTest_getInitialDatan,  iteration: 1, Environment: test<br>]]>
+            </line>
+            <line>
+              <![CDATA[2018-10-24 22:31:10.22 : FINISH apiTest_getInitialDatan,  iteration: 1  on Environment:test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apiTest_getInitialDatan -->
+        <test-method status="PASS" signature="Exit_Clean_After_Test()[pri:0, instance:com.italam.tests.Tests_API_REST@1324409e]" name="Exit_Clean_After_Test" is-config="true" duration-ms="1000" started-at="2018-10-24T22:31:10Z" finished-at="2018-10-24T22:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit_Clean_After_Test -->
+        <test-method status="PASS" signature="apiTest_getOrgAdmin(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_getOrgAdmin" duration-ms="1817" started-at="2018-10-24T22:31:11Z" data-provider="iteration" finished-at="2018-10-24T22:31:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2018-10-24 22:31:11.222 : START apiTest_getOrgAdmin,  iteration: 1, Environment: test<br>]]>
+            </line>
+            <line>
+              <![CDATA[2018-10-24 22:31:13.038 : FINISH apiTest_getOrgAdmin,  iteration: 1  on Environment:test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apiTest_getOrgAdmin -->
+        <test-method status="PASS" signature="Exit_Clean_After_Test()[pri:0, instance:com.italam.tests.Tests_API_REST@1324409e]" name="Exit_Clean_After_Test" is-config="true" duration-ms="1001" started-at="2018-10-24T22:31:13Z" finished-at="2018-10-24T22:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit_Clean_After_Test -->
+        <test-method status="PASS" signature="apiTest_getOrganizationProfile(int)[pri:1, instance:com.italam.tests.Tests_API_REST@1324409e]" name="apiTest_getOrganizationProfile" duration-ms="1647" started-at="2018-10-24T22:31:14Z" data-provider="iteration" finished-at="2018-10-24T22:31:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2018-10-24 22:31:14.041 : START apiTest_getOrganizationProfile,  iteration: 1, Environment: test<br>]]>
+            </line>
+            <line>
+              <![CDATA[2018-10-24 22:31:15.687 : FINISH apiTest_getOrganizationProfile,  iteration: 1  on Environment:test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apiTest_getOrganizationProfile -->
+        <test-method status="PASS" signature="Exit_Clean_After_Test()[pri:0, instance:com.italam.tests.Tests_API_REST@1324409e]" name="Exit_Clean_After_Test" is-config="true" duration-ms="1000" started-at="2018-10-24T22:31:15Z" finished-at="2018-10-24T22:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit_Clean_After_Test -->
+        <test-method status="PASS" signature="End_Exectuion()[pri:0, instance:com.italam.tests.Tests_API_REST@1324409e]" name="End_Exectuion" is-config="true" duration-ms="1" started-at="2018-10-24T22:31:16Z" finished-at="2018-10-24T22:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End_Exectuion -->
+      </class> <!-- com.italam.tests.Tests_API_REST -->
+    </test> <!-- API Tests -->
+  </suite> <!-- Suite for Sanity REST API -->
+</testng-results>
