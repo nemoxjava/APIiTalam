@@ -1,0 +1,14 @@
+com\italam\pages\NextHomePage.class
+com\italam\utility\GeneralUtility.class
+com\italam\pages\BasePage.class
+com\italam\utility\ExcelUtils.class
+com\italam\tests\Tests_API_REST.class
+com\italam\data\Constant.class
+com\italam\utility\UtilityNext.class
+com\italam\tests\Tests_API_REST_practice.class
+com\italam\data\EnumDBsConnDetails.class
+com\italam\tests\Tests_API_REST_newServises.class
+com\italam\utility\RestUtils.class
+com\italam\pages\NextLogin.class
+com\italam\utility\SOAPUtils.class
+com\italam\data\DataProviders.class
